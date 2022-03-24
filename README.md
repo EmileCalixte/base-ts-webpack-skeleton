@@ -1,6 +1,6 @@
-# Base skeleton for JS app with webpack
+# Base skeleton for TS app with webpack
 
-A very basic skeleton for a JavaScript app using webpack
+A very basic skeleton for a TypeScript app using webpack
 
 ## Install dependencies
 

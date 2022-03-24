@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    entry: "./src/js/index.js",
+    entry: "./src/js/index.ts",
     target: ["web", "es5"],
     devtool: "source-map", // Generate map files
     plugins: [
