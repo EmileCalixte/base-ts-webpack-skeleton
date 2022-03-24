@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -13,18 +13,18 @@ module.exports = {
     ],
     output: {
         filename: "main.js",
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, "dist"),
         clean: true, // Delete old files before creating new ones
     },
     module: {
         rules: [
             {
                 test: /\.css$/i,
-                use: ['style-loader', 'css-loader'],
+                use: ["style-loader", "css-loader"],
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: 'asset/resource',
+                type: "asset/resource",
             },
         ],
     },
